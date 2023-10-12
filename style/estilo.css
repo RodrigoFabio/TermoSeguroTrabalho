@@ -1,10 +1,8 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
+
+
 #cabecalho {
     background-color: #72c4af; /* Cor de fundo do cabeçalho */
-    color: #fff; /* Cor do texto no cabeçalho */
+    color: #bebebe; /* Cor do texto no cabeçalho */
     padding: 10px; /* Espaçamento interno do cabeçalho */
     display: flex;
     align-items: center;
@@ -106,7 +104,7 @@ body{
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #dddada;
     margin: 0;
     padding: 0;
 }

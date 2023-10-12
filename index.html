@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link  rel="stylesheet" href="estilo.css"></link>
+    <link  rel="stylesheet" href="style/estilo.css"></link>
 </head>
 <body>
     <header id="cabecalho">
-        <div class="logo"><a id="logoTS" href="index.html">TERMO SEGURO</a></div>
+        <div class="logo"><a id="logoTS" href="./index.html">TERMO SEGURO</a></div>
         <div class="faleconosco">
-            <img class="zap" src="zaap.png" alt="zap">
+            <img class="zap" src="images/zaap.png" alt="zap">
             <a href="#" id="idfaleconosco">Fale Conosco</a>
         </div>
         <nav class="navega">
             <ul>
-                <li><a href="lgpd.html" data-section="o-que-e-lgpd">O que é LGPD</a></li>
-                <li><a href="termo.html" data-section="o-que-e-termo-de-uso">O que é Termo de Uso</a></li>
+                <li><a href="pages/lgpd.html" data-section="o-que-e-lgpd">O que é LGPD</a></li>
+                <li><a href="pages/termo.html" data-section="o-que-e-termo-de-uso">O que é Termo de Uso</a></li>
             </ul>
         </nav>
         </header>
@@ -27,31 +27,28 @@
                     conformidade com a Lei Geral de Proteção de Dados (LGPD) é uma prioridade para qualquer negócio nos dias de hoje. Estamos comprometidos
                      em simplificar o processo de conformidade com a privacidade de dados, economizando tempo e garantindo que sua empresa esteja em
                       conformidade com as regulamentações vigentes. Conte conosco para tornar a proteção de dados uma tarefa mais fácil e eficiente.</p>
-                <img id="imagemIndex" src="imagemIndex.png" alt="ilustração">
+                <img id="imagemIndex" src="images/imagemIndex.png" alt="ilustração">
             </div>
             <div class="formulario">
                 <h1>Informe os dados da sua empresa</h1>
-                <form action="gerar_termo_uso.php" method="post" class="form-container">
+                <form class="form-container">
                     <label for="nome_empresa" class="form-label">Nome da Empresa:</label>
                     <input type="text" id="nome_empresa" name="nome_empresa" class="form-input" required><br><br>
-    
+                
                     <label for="url_site" class="form-label">URL do Site:</label>
-                    <input type="url" id="url_site" name="url_site" class="form-input" required placeholder="https://..."></input><br><br>
-    
+                    <input type="url" id="url_site" name="url_site" class="form-input" required placeholder="https://..."><br><br>
+                
                     <label for="tempo_retencao" class="form-label">Tempo de Retenção dos Dados:</label>
                     <input type="text" id="tempo_retencao" name="tempo_retencao" class="form-input" required><br><br>
-    
-                    <label for="usa_cookies" class="form-label">A empresa utiliza cookies?</label>
-                    <input type="checkbox" id="usa_cookies" name="usa_cookies" class="form-checkbox">Sim</input><br><br>
-    
-                    <input type="submit" value="Enviar" class="form-submit">
+                
+                    <input type="submit" value="Enviar" class="form-submit" onclick="gerarTermoDeUso(event)">
                 </form>
+                
             </div>
         </div>
-    
-    <script>
         
-    </script>
+
+        <script src="./script/geraTermo.js"></script>
     </body>
     </html>
   
