@@ -1,6 +1,4 @@
-
-
-#cabecalho {
+.cabecalho {
     background-color: #72c4af; /* Cor de fundo do cabeçalho */
     color: #bebebe; /* Cor do texto no cabeçalho */
     padding: 10px; /* Espaçamento interno do cabeçalho */
