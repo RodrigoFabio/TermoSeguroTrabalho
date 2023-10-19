@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddada;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    background-color: #72c4af; 
+    color: #bebebe; 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50PX;
+    width: auto;
+}
+
+.logo {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #141414;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin-right: 10px; 
+    
+}
+
+
+.faleconosco {
+    font-size: 16px; 
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+
+.zap {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px; 
+}
+
+
+.navega ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navega ul li {
+    margin-right: 20px;
+}
+
+.navega ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-left: 10px;
+}
+
+.navega ul li a:hover {
+    color: #017a7e; 
+    
+}
+
+
+.navega ul li a.active {
+    background-color: #0ef5d6; 
+    color: #fff; 
+}
+
+#idfaleconosco{
+    color: white;
+}
+
+.o-que-e-lgpd {
+    font-size: 16px; 
+    line-height: 2; 
+    color: #333; 
+    margin: 10px 30px 0px 40px; 
+}
+
+#logoTS{
+    color: #000000;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+

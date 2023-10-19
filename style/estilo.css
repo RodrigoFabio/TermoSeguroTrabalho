@@ -77,26 +77,21 @@
     
 }
 
-/* Estilos para o link clicado */
+
 .navega ul li a.active {
-    background-color: #0ef5d6; /* Cor de fundo quando clicado */
-    color: #fff; /* Cor do texto quando clicado */
+    background-color: #0ef5d6; 
+    color: #fff; 
 }
 
 #idfaleconosco{
     color: white;
 }
 
-#o-que-e-lgpd {
-    font-size: 16px; /* Tamanho da fonte do parágrafo */
-    line-height: 2; /* Espaçamento entre linhas para melhor legibilidade */
-    color: #333; /* Cor do texto do parágrafo */
-    margin: 10px 30px 0px 40px; /* Espaçamento vertical entre parágrafos */
-}
+
 #termouso{
-    font-size: 16px; /* Tamanho da fonte do parágrafo */
-    line-height: 2; /* Espaçamento entre linhas para melhor legibilidade */
-    color: #333; /* Cor do texto do parágrafo */
+    font-size: 16px;
+    line-height: 2; 
+    color: #333; 
     margin: 10px 30px 0px 40px; 
 }
 
@@ -153,9 +148,9 @@ h1 {
 }
 
 #informativoP{
-    font-size: 16px; /* Tamanho da fonte do parágrafo */
-    line-height: 2; /* Espaçamento entre linhas para melhor legibilidade */
-    color: #333; /* Cor do texto do parágrafo */
+    font-size: 16px;
+    line-height: 2; 
+    color: #333; 
     margin: 10px 30px 0px 40px;
 }
 
@@ -175,3 +170,16 @@ h1 {
 a{
     text-decoration: none;
 }
+
+.o-que-e-termo{
+    font-size: 16px; 
+    line-height: 2; 
+    color: #333; 
+    margin: 10px 30px 0px 40px; 
+}
+
+.mainTermo{
+    justify-content: center;
+    
+}
+
